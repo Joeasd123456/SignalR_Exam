@@ -1,0 +1,6 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore specific secret key file if it's generated directly
+**/kokkak-b6914-b29574cdb1af.json

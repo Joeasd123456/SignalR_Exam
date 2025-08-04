@@ -1,0 +1,3292 @@
+[
+  {
+    "ContainingType": "API_Kokak.Controllers.AddressController",
+    "Method": "GetAddress",
+    "RelativePath": "api/Address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "user_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.AddressController",
+    "Method": "InsertServiceItem",
+    "RelativePath": "api/Address",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adModel",
+        "Type": "API_Kokak.Controllers.AddressController\u002BAddressModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.BanckAccController",
+    "Method": "GetBankAcc",
+    "RelativePath": "api/BanckAcc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.BanckAccController",
+    "Method": "UpadateAndInsertBackAcc",
+    "RelativePath": "api/BanckAcc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BankName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "techId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.BankController",
+    "Method": "GetBankInfo",
+    "RelativePath": "api/Bank",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.BannerController",
+    "Method": "selectmaster",
+    "RelativePath": "api/Banner",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.BannerController",
+    "Method": "Insermasterbannerandfooter",
+    "RelativePath": "api/Banner",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "banner",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "footer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "url",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.CancelJobController",
+    "Method": "CancelJob",
+    "RelativePath": "api/CancelJob",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_case",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "remark",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ChackRoleController",
+    "Method": "ChackRole",
+    "RelativePath": "api/ChackRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usertype",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ChatController",
+    "Method": "GetMessages",
+    "RelativePath": "api/chat/messages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromUser",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toUser",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ChatController",
+    "Method": "UploadImage",
+    "RelativePath": "api/chat/send-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromUser",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toUser",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.CheckAcceptedJobController",
+    "Method": "CheckAccepting",
+    "RelativePath": "api/CheckAcceptedJob",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_case",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.CompanyController",
+    "Method": "GetCompany",
+    "RelativePath": "api/Company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.CompanyController",
+    "Method": "AddCompany",
+    "RelativePath": "api/Company",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Company",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.CompanyController",
+    "Method": "Delete",
+    "RelativePath": "api/Company/delete",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.DashboardtechController",
+    "Method": "ReviewSelect",
+    "RelativePath": "api/Dashboardtech",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.DelJobController",
+    "Method": "DelJob",
+    "RelativePath": "api/DelJob",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_case",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.DirectionsController",
+    "Method": "GetDirections",
+    "RelativePath": "api/Directions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.DocRunningController",
+    "Method": "GetDocRunning",
+    "RelativePath": "api/DocRunning",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.DocRunningController",
+    "Method": "Dulicate",
+    "RelativePath": "api/DocRunning",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.EnvController",
+    "Method": "GetEnv",
+    "RelativePath": "api/Env",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.EnvController",
+    "Method": "UpdateJobPrice",
+    "RelativePath": "api/Env",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Key",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Value",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.GetTokenNumberController",
+    "Method": "Getselectnoti",
+    "RelativePath": "api/GetTokenNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Data.DataTable",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.GoogleAPIController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/GoogleAPI/Sign-In",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TypeRegister",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TypeSocial",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.JobController",
+    "Method": "Updateitem",
+    "RelativePath": "api/Job/UpdateQuotaion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idcase",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "unit",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "totalprice",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PreAlertAPI.Controllers.LoginKokkakController",
+    "Method": "GetUSERS",
+    "RelativePath": "api/LoginKokkak",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "USERNAME",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PASSWORD",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PreAlertAPI.Controllers.LoginKokkakController",
+    "Method": "CheckUser",
+    "RelativePath": "api/LoginKokkak",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.MoneyController",
+    "Method": "GetMoney",
+    "RelativePath": "api/Money",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.MoneyController",
+    "Method": "UpdateJobPrice",
+    "RelativePath": "api/Money",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "invoice_tech",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status_iv_tech",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_invoice_date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_invoice_time",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fee",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.NotiAppController",
+    "Method": "Getselectnoti",
+    "RelativePath": "api/NotiApp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "user_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Data.DataTable",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.NotiAppController",
+    "Method": "InsertNoti",
+    "RelativePath": "api/NotiApp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID_cace",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.NotiAppController",
+    "Method": "DeleteNoti",
+    "RelativePath": "api/NotiApp/Delete-Noti",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NotificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.NotificationController",
+    "Method": "GetNotifyDetail",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UID_User",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.NotificationController",
+    "Method": "UpdateNotify",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.NotificationController",
+    "Method": "SendNotification",
+    "RelativePath": "api/Notification/send-notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceToken",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "body",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.QAController",
+    "Method": "InsertAndUpdateQA",
+    "RelativePath": "api/QA",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_Kokak.Model.QAModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.QAController",
+    "Method": "DeleteQa",
+    "RelativePath": "api/QA/{qaId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "qaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.QAController",
+    "Method": "GetAllQAndA",
+    "RelativePath": "api/QA/get/by/{cateId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cateId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.QACategoryController",
+    "Method": "InsertAndUpdateQACate",
+    "RelativePath": "api/QACategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_Kokak.Model.QACategoryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.QACategoryController",
+    "Method": "DeleteQaCate",
+    "RelativePath": "api/QACategory/{cateId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cateId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.QACategoryController",
+    "Method": "GetAllQACate",
+    "RelativePath": "api/QACategory/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.QuotationController",
+    "Method": "GetJobPrice",
+    "RelativePath": "api/Quotation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.QuotationController",
+    "Method": "UpdateJobPrice",
+    "RelativePath": "api/Quotation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "techid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_case",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "unit",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.RegisterAPIController",
+    "Method": "Register",
+    "RelativePath": "api/RegisterAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.RegisterAPIController",
+    "Method": "Register",
+    "RelativePath": "api/RegisterAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Lname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IDCard",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tphone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Idcardp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Addp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Usertype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "whatapp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Approve_technician",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Active_technician",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bank",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Add_pics",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files_docs",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "services_ids",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.RegisterAPIController",
+    "Method": "CRUDTechSkill",
+    "RelativePath": "api/RegisterAPI",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "services_ids",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.RegisterAPIController",
+    "Method": "Dulicate",
+    "RelativePath": "api/RegisterAPI",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.RegisterAPIController",
+    "Method": "DulicateEmail",
+    "RelativePath": "api/RegisterAPI",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.RepairDetailController",
+    "Method": "RepairDetail",
+    "RelativePath": "api/RepairDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.RepairDetailController",
+    "Method": "RepairDetailInsert",
+    "RelativePath": "api/RepairDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "doc_no",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cdate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Edate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userby",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Adress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tphone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Services",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "servicesid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dsissue",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sttime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "endtime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userdatetime1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userdatetime2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "memoacceptingwork",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "addpicture1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "addpicture2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "addpicture3",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "memo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "total_price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Latitude",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Longitude",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "date_doc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Urgency",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "invoice",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "techid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Company",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "acceptingwork",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.RepairDetailController",
+    "Method": "DulicateDocno",
+    "RelativePath": "api/RepairDetail",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doc_no",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.RepairRejectDetailController",
+    "Method": "RepairRejectDetail",
+    "RelativePath": "api/RepairRejectDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "memo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportController",
+    "Method": "GenerateInvoice",
+    "RelativePath": "api/Report/generate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idcase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ReviewController",
+    "Method": "ReviewSelect",
+    "RelativePath": "api/Review",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ReviewController",
+    "Method": "InsertReview",
+    "RelativePath": "api/Review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "user_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "score1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "score2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "score3",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "average",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "comment",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Date_review",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.SelectTechnicianDetailController",
+    "Method": "TechnicianDetail",
+    "RelativePath": "api/SelectTechnicianDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ServiceItemController",
+    "Method": "GetServiceItem",
+    "RelativePath": "api/ServiceItem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ser_system_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ServiceItemController",
+    "Method": "InsertServiceItem",
+    "RelativePath": "api/ServiceItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ser_system_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "warranty",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "warranty_detail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "features",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "instruction_for_use",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "precaution_for_use",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "others",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "unit",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "service_item_img",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cover_img",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ServicesController",
+    "Method": "Register",
+    "RelativePath": "api/Services",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ServicesController",
+    "Method": "InsertService",
+    "RelativePath": "api/Services",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "service_name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "service_name_lao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "service_img",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ServiceSystemController",
+    "Method": "GetServiceSystem",
+    "RelativePath": "api/ServiceSystem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.ServiceSystemController",
+    "Method": "InsertServiceSystem",
+    "RelativePath": "api/ServiceSystem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "services_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "systems_name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "systems_name_lao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "service_system_img",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.SocialController",
+    "Method": "SelectSocial",
+    "RelativePath": "api/Social",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SocialID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SocialName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SocialLink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IconPath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.SocialController",
+    "Method": "InsertSocial",
+    "RelativePath": "api/Social",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SocialID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SocialName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SocialLink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IconPath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.SRSelectMemoAcceptingController",
+    "Method": "ReviewSelect",
+    "RelativePath": "api/SRSelectMemoAccepting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idcase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.SRSelectMemoAcceptingController",
+    "Method": "Insertitem",
+    "RelativePath": "api/SRSelectMemoAccepting/InsertItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "user_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "item",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idcase",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "unit",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "totalprice",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.StatementController",
+    "Method": "GetInfo",
+    "RelativePath": "api/Statement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Month",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechandUserselectController",
+    "Method": "TechnicianDetail",
+    "RelativePath": "api/TechandUserselect",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Company",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianDetailController",
+    "Method": "TachDetail",
+    "RelativePath": "api/TechnicianDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "techid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select3",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select4",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select5",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select6",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "company",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "techLat",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "techLog",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "radus",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianDetailController",
+    "Method": "Tachselectjob",
+    "RelativePath": "api/TechnicianDetail",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "techid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "company",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Data.DataTable",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianDetailController",
+    "Method": "CheckUser",
+    "RelativePath": "api/TechnicianDetail",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianDetailController",
+    "Method": "selectjob",
+    "RelativePath": "api/TechnicianDetail",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "techid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "company",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Data.DataTable",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianDetailController",
+    "Method": "techsearch",
+    "RelativePath": "api/TechnicianDetail",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select3",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select4",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select5",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "select6",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Data.DataTable",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianDetailController",
+    "Method": "TechDetailApproveJob",
+    "RelativePath": "api/TechnicianDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "user_tech",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "time",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "start_date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status_approve",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "end_date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "techid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "addpicture1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "addpicture2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "addpicture3",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "memo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "invoice",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianSELECTController",
+    "Method": "ReviewSelect",
+    "RelativePath": "api/TechnicianSELECT",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "headtech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianStatus",
+    "Method": "Approve_List",
+    "RelativePath": "api/TechnicianStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianStatus",
+    "Method": "CRUDTechSkill",
+    "RelativePath": "api/TechnicianStatus",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "services_ids",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechnicianStatus",
+    "Method": "Approve",
+    "RelativePath": "api/TechnicianStatus/Manage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Company",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "services_ids",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechSelectController",
+    "Method": "HeadTechselect",
+    "RelativePath": "api/TechSelect",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "h_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechSelectController",
+    "Method": "Delete_Tech",
+    "RelativePath": "api/TechSelect/DelTech",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "h_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "t_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TechSkillController",
+    "Method": "GetSkill",
+    "RelativePath": "api/TechSkill",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user_id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TermsAndPoliciesController",
+    "Method": "DeleteTermAndPolicy",
+    "RelativePath": "api/TermsAndPolicies/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TermsAndPoliciesController",
+    "Method": "GetAllPolicy",
+    "RelativePath": "api/TermsAndPolicies/get/policy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TermsAndPoliciesController",
+    "Method": "GetAllTermAndCondition",
+    "RelativePath": "api/TermsAndPolicies/get/term",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TermsAndPoliciesController",
+    "Method": "IUPolicy",
+    "RelativePath": "api/TermsAndPolicies/policy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_Kokak.Model.termsAndPoliciesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.TermsAndPoliciesController",
+    "Method": "IUTermAndCon",
+    "RelativePath": "api/TermsAndPolicies/term",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_Kokak.Model.termsAndPoliciesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UpdateadminController",
+    "Method": "Updatestatus",
+    "RelativePath": "api/Updateadmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "admin_status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Company",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileController",
+    "Method": "GetMultiImage",
+    "RelativePath": "api/UploadFile/GetMultiImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileController",
+    "Method": "GetMultiImageInvoice",
+    "RelativePath": "api/UploadFile/GetMultiImageInvoice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileController",
+    "Method": "MultiUploadImageAsync",
+    "RelativePath": "api/UploadFile/UploadImg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileCollection",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileController",
+    "Method": "MultiUploadImageInvoiceAsync",
+    "RelativePath": "api/UploadFile/UploadImgInvoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileCollection",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileWebController",
+    "Method": "GetMultiImage",
+    "RelativePath": "api/UploadFileWeb/GetMultiImageWeb",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileWebController",
+    "Method": "GetMultiImageBanner",
+    "RelativePath": "api/UploadFileWeb/GetMultiImageWebBanner",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileWebController",
+    "Method": "GetMultiImageFooter",
+    "RelativePath": "api/UploadFileWeb/GetMultiImageWebFooter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileWebController",
+    "Method": "GetMultiImageSlip",
+    "RelativePath": "api/UploadFileWeb/GetMultiImageWebSlip",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileWebController",
+    "Method": "MultiUploadImageAsync",
+    "RelativePath": "api/UploadFileWeb/UploadImgWeb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileCollection",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileWebController",
+    "Method": "MultiUploadImageBannerAsync",
+    "RelativePath": "api/UploadFileWeb/UploadImgWebBanner",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileCollection",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileWebController",
+    "Method": "MultiUploadImageFooterAsync",
+    "RelativePath": "api/UploadFileWeb/UploadImgWebFooter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileCollection",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokkak.Controllers.UploadFileWebController",
+    "Method": "MultiUploadImageSlipAsync",
+    "RelativePath": "api/UploadFileWeb/UploadImgWebSlip",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileCollection",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IDCase",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserController",
+    "Method": "GetInfo",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Lname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tphone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WhatsApp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SubTechId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Usertype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Idcardp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Addp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Company",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files_docs",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bank",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "services_ids",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserController",
+    "Method": "CRUDTechSkill",
+    "RelativePath": "api/User",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tech_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "services_ids",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserController",
+    "Method": "AddTech",
+    "RelativePath": "api/User/AddTech",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "T_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "H_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserController",
+    "Method": "GetUserByUserType",
+    "RelativePath": "api/User/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Data.DataTable",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserController",
+    "Method": "SelectUser",
+    "RelativePath": "api/User/SelectUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserController",
+    "Method": "UpdateGPSPosition",
+    "RelativePath": "api/User/techPosition",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_Kokak.Model.GPSPositionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserController",
+    "Method": "GetGPSPosition",
+    "RelativePath": "api/User/techPosition",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Data.DataTable",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserAddressController",
+    "Method": "GetAddressUSERS",
+    "RelativePath": "api/UserAddress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "region",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "province",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Kokak.Controllers.UserAddressController",
+    "Method": "Inputaddress",
+    "RelativePath": "api/UserAddress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

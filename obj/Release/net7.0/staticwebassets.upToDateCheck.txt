@@ -1,0 +1,2 @@
+wwwroot\fonts\Phetsarath OT.ttf
+wwwroot\fonts\THSarabun.ttf
