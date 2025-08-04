@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_Kokak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c5d1354027ede8332039ebd33d0bb10d0cb304f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9959294215690460f736c30002d9a016ee6f923")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_Kokak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_Kokak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
