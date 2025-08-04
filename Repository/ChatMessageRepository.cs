@@ -1,7 +1,7 @@
 ﻿using API_Kokak.Interface;
 using API_Kokak.Model;
 using AspStudio.Variable;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using Dapper;
 
 namespace API_Kokak.Repository
